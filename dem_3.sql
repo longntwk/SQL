@@ -1,0 +1,12 @@
+-- SELECT * FROM employees
+SELECT * FROM employees
+LIMIT 3;
+
+SELECT * FROM employees
+LIMIT 25 OFFSET 0;
+
+SELECT * FROM employees
+LIMIT 25 OFFSET 25;
+
+SELECT * FROM employees
+LIMIT 25 OFFSET 50;
